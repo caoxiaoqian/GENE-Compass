@@ -15,6 +15,9 @@ The framework excels in both model plants (e.g., *Arabidopsis thaliana*, 66.7% Y
 
 This repository provides Python tools for promoter extraction, motif scanning, correlation analysis, and GRN inference, enabling reproducible GRN reconstruction.
 
+![Schematic workflow of GENE-compass](flowchart.png)
+<p align="center"><b>Figure 1. Schematic workflow of GENE-compass.</b></p>
+
 ## Features
 
 - **Cross-Species Compatibility**: PWM knowledge transfer for non-model plants using orthology (e.g., MMseqs2 alignment).
@@ -155,7 +158,7 @@ Thank you to all contributors for making this project even better!
 | Contributor              | GitHub                  |
 |--------------------------|-------------------------|
 | Xiaoqian Cao             | [@caoxiaoyan](https://github.com/caoxiaoyan) |
-| Yao Huang                | [@yaohuang](https://github.com/yaohuang110)     |
+| Yao Huang                | [@yaohuang](https://github.com/huangyao110)     |
 | Jicheng Tang             | [@Jicheng-Tang](https://github.com/Jicheng-Tang)  |
 
 ## License
