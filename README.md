@@ -158,7 +158,7 @@ Thank you to all contributors for making this project even better!
 | Contributor              | GitHub                  |
 |--------------------------|-------------------------|
 | Xiaoqian Cao             | [@caoxiaoyan](https://github.com/caoxiaoyan) |
-| Yao Huang                | [@yaohuang](https://github.com/huangyao110)     |
+| Yao Huang                | [@huangyao](https://github.com/huangyao110)     |
 | Jicheng Tang             | [@Jicheng-Tang](https://github.com/Jicheng-Tang)  |
 
 ## License
