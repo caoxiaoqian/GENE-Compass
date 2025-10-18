@@ -142,37 +142,6 @@ from utils import fimo_filter
 scanned_genes = fimo_filter(tf='RhWRKY23', motif_infos=motif_df, pcc_genes=extreme_pairs, motif_scan_res=fimo_df)
 ```
 
-### 5. Metrics & Visualization
-Evaluate predictions with `calc_metrics.py` (Enrichment Factors, AUC-EF).
-
-```python
-from calc_metrics import calculate_ef_for_prescreened_with_rank, plot_ef_curve
-
-# predictions_df: cols=['rank', 'label'] (1=hit)
-ef_results = calculate_ef_for_prescreened_with_rank(predictions_df, total_molecules=32000, total_hits=100)
-plot_ef_curve(ef_results, save_path='ef_curve.png')
-```
-
-## File Structure
-
-- **Core Scripts**:
-  - `grn.py`: GRN inference (PORTIA, RF, XGBoost, SVR).
-  - `fimo_scan.py`: Parallel FIMO motif scanning.
-  - `mscan_utils.py`: GimmeMotifs alternative for scanning.
-  - `exact_promoter.py`: Promoter extraction from GFF3/FASTA.
-  - `exppc.py`: Vectorized correlations and percentile filtering.
-  - `utils.py`: FIMO filtering integration.
-  - `io_utils.py`: Data formatting (e.g., adj matrix to ranked DF).
-  - `calc_metrics.py`: EF/AUC metrics and plotting.
-
-- **Data**:
-  - `./odata/Rosa_chinensis/`: Example rose genome/GFF3 (from paper).
-  - Motifs: Download plant PWMs (e.g., from PlantTFDB or CIS-BP).
-
-- **Other**:
-  - `__init__.py`: Package init.
-  - `requirements.txt`: Dependencies (create as needed).
-
 ## Examples
 
 See `./examples/` (create folder with Jupyter notebooks):
@@ -186,7 +155,7 @@ Thank you to all contributors for making this project even better!
 | Contributor              | GitHub                  |
 |--------------------------|-------------------------|
 | Xiaoqian Cao             | [@caoxiaoyan](https://github.com/caoxiaoyan) |
-| Yao Huang                | [@yaohuang](https://github.com/yaohuang)     |
+| Yao Huang                | [@yaohuang](https://github.com/yaohuang110)     |
 | Jicheng Tang             | [@Jicheng-Tang](https://github.com/Jicheng-Tang)  |
 
 ## License
