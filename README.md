@@ -179,6 +179,16 @@ See `./examples/` (create folder with Jupyter notebooks):
 - `rose_grn_inference.ipynb`: End-to-end rose RhWRKY23 prediction.
 - `arabidopsis_benchmark.ipynb`: AtWRKY33 validation plotting.
 
+## Contributors
+
+Thank you to all contributors for making this project even better!
+
+| Contributor              | GitHub                  |
+|--------------------------|-------------------------|
+| Xiaoqian Cao             | [@caoxiaoyan](https://github.com/caoxiaoyan) |
+| Yao Huang                | [@yaohuang](https://github.com/yaohuang)     |
+| Jicheng Tang             | [@Jicheng-Tang](https://github.com/Jicheng-Tang)  |
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
